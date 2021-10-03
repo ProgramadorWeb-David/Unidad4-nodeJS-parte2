@@ -1,0 +1,48 @@
+
+<!-- 
+{{#if conocido}}  
+    <p>Hola {{nombre}} <a href="/salir">Salir</a></p>
+{{/if}}
+
+{{#unless conocido}}
+    <p>No se quien sos</p>
+    <form action="/ingresar" method="POST">
+        <input type="text" name="nombre"><button>ingresar</button>
+    </form>
+{{/unless}}        
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node-TP2</title>
+</head>
+
+
+<body>
+    <div class="container">
+        <h1>TEST PARA VALIDAR SI SOS HUMANO!</h1>
+        <h3>Logueate!</h3>
+        <form action="/ingresar" method="post">
+            <div class="padre">
+                <div class="hijo">
+                    <label for="usuario">usuario:</label>
+                    <input type="text" name="usuario" placeholder="Admin" required>
+                </div>
+
+                <div class="hijo b">
+                    <label for="clave">clave:</label>
+                    <input type="password" name="clave" placeholder="password" required>
+                </div>
+            </div>
+
+            <button class="boton" type="submit">ingresar</button>
+        </form>
+        <p>* El usuario y la clave pueden ser con cualquier digito!!!</p>
+    </div>
+
+</body>
+</html>

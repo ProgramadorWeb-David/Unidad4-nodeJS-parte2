@@ -1,0 +1,183 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}  
+
+body {
+  font-size: 16px;
+}
+
+
+/* estilos para INDEX */
+.container {
+  margin: 5rem auto;
+  width: 40%;
+  border-radius: 1rem;
+  max-width: 900px;
+  text-align: center;
+  padding: 1rem;
+  background-color: #e7e7e7;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.container > h1 {
+  font-weight: 700;
+  color: green;
+  font-size: large;
+  padding: 1rem 0px;
+}
+
+.container > h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:salmon;
+  font-size: medium;
+  padding-bottom: 2rem;
+}
+
+.padre {
+  width: 50%;
+  height: 6rem;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hijo {
+  display: flex;
+  justify-content: space-around;
+  margin: 6px;
+}
+
+.hijo > label {
+  color: #0028ffde;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.b > input {
+  margin-left: 10px;
+}
+
+.boton {
+  background-color:rgb(112, 189, 219);
+  width: 10rem;
+  border-radius: 1rem;
+  height: 3rem;
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 2rem auto;
+}
+
+.boton:hover {
+  background-color: steelblue;
+  cursor: pointer;
+}
+
+
+/* estilos para VISTA-UNO */
+.user {
+  margin-bottom: 0.5rem;
+}
+
+.user > span {
+  color: green;
+  font-family: cursive;
+  font-weight: 300;
+}
+
+.resUno {
+  background-color: ivory;
+  max-width: 8rem;
+  margin-left: 1rem;
+}
+
+.padreVU {
+  border-radius: 1rem;
+  max-width: 20rem;
+  margin: 3rem auto;
+  background-color: white;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.preguntaUno {
+  color: rebeccapurple;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 2rem;
+  padding-top: 2rem;
+}
+
+
+
+/* estilos para ERROR */
+.error {
+  font-weight: 700;
+  color: red;
+  font-size: large;
+  padding: 1rem 0px;
+}
+
+.salir {
+  background-color: cadetblue;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 2rem;
+  margin: 2rem auto;
+}
+
+.salir > a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.colorNum {
+  color: rgb(39, 39, 197);
+}
+
+.ok {
+  font-weight: 700;
+  color: green;
+  font-size: large;
+  padding: 1rem 0px;
+}
+
+.cerrarSesion {
+  background-color: cadetblue;
+  width: 12rem;
+  height: 2rem;
+  border-radius: 2rem;
+  margin: -1rem auto 1rem auto;
+}
+
+.cerrarSesion > a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btnDis {
+  margin: 3rem auto;
+  width: 25rem;
+  height: 3rem;
+}
